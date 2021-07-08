@@ -19,7 +19,7 @@ $(".btn-close").click(function(){
     $(".menu").hide()
 })
 
-$('div a').click(function(e){
+$('menu a').click(function(e){
     e.preventDefault();
     var id = $(this).attr('href'),
         target0ffset = $(id).offset().top;
